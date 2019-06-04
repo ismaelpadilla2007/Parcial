@@ -1,0 +1,13 @@
+﻿@model List<ClientPatientManagement.Core.Models.Room>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var item in Model)
+{
+    <span>Nombre</span> <span>@item.Name</span>
+    <span>Ubicacion</span> <span>@item.Location</span>
+}

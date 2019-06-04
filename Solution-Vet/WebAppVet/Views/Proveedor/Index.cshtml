@@ -1,0 +1,14 @@
+﻿@model List<WebAppVet.Models.Proveedor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var item in Model)
+{
+    <span>Codigo</span> <span>@item.Id</span>
+    <span>Nombre</span> <span>@item.Nombre</span>
+}
+
