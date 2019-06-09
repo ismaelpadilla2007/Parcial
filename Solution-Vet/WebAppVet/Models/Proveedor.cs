@@ -7,7 +7,7 @@ using System.Web;
 
 namespace WebAppVet.Models
 {
-    public partial class Proveedor : IEntity
+    public partial class Proveedor 
     {
         public int Id { get; set; }
         public string Nombre { get; set; }

@@ -7,7 +7,7 @@ using System.Web;
 
 namespace WebAppVet.Models
 {
-    public partial class Pieza : IEntity
+    public partial class Pieza
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
@@ -23,6 +23,5 @@ namespace WebAppVet.Models
             [StringLength(100)]
             public String Nombre { get; set; }
         }
-
     }
 }

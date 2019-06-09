@@ -13,11 +13,11 @@ namespace WebAppVet.Controllers
 
         public ActionResult Index()
         {
-            ProveedorFacade proveedor = new ProveedorFacade();
-                proveedor.List();
+            //ProveedorFacade proveedor = new ProveedorFacade();
+                //proveedor.List();
 
-                var piezas = db.Piezas.ToList();
-                return View(piezas);
+                var proveedores = db.Proveedores.ToList();
+                return View(proveedores);
                 // return View();
             
         }

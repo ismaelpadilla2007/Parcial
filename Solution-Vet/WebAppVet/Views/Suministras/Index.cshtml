@@ -1,0 +1,14 @@
+﻿@model List<WebAppVet.Models.Suministra>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var item in Model)
+{
+    <span>Codigo Pieza: </span> <span>@item.CodigoPieza</span><br>
+    <span>Codigo Proveedor: </span> <span>@item.IdProveedor</span><br />
+    <span>Precio: </span><span>@item.Precio</span><br />
+}

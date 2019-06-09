@@ -13,9 +13,9 @@ namespace WebAppVet.Controllers
         // GET: Pieza
         public ActionResult Index()
         {
-            PiezaFacade pieza = new PiezaFacade();
-            // db.Piezas.ToList()
-            var piezas = pieza;
+            //PiezaFacade pieza = new PiezaFacade();
+             
+            var piezas = db.Piezas.ToList();
             return View(piezas);    
            // return View();
         }

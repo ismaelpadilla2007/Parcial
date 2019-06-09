@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,17 +147,16 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PiezaController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
-    <Compile Include="Data\ProveedorDataGateway.cs" />
+    <Compile Include="Controllers\SuministrasController.cs" />
     <Compile Include="Data\PruebaDbContext.cs" />
-    <Compile Include="Data\PiezaDataGateway.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
-    <Compile Include="Migrations\201906032319159_Initial-Create.cs" />
-    <Compile Include="Migrations\201906032319159_Initial-Create.Designer.cs">
-      <DependentUpon>201906032319159_Initial-Create.cs</DependentUpon>
+    <Compile Include="Migrations\201906091505565_Initial-Create.cs" />
+    <Compile Include="Migrations\201906091505565_Initial-Create.Designer.cs">
+      <DependentUpon>201906091505565_Initial-Create.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Pieza.cs" />
@@ -179,6 +179,7 @@
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Pieza\Index.cshtml" />
     <Content Include="Views\Proveedor\Index.cshtml" />
+    <Content Include="Views\Suministras\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -190,8 +191,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906032319159_Initial-Create.resx">
-      <DependentUpon>201906032319159_Initial-Create.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906091505565_Initial-Create.resx">
+      <DependentUpon>201906091505565_Initial-Create.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
