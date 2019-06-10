@@ -1,5 +1,4 @@
-﻿using ClientPatientManagement.Core.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,16 +6,15 @@ using System.Web;
 
 namespace WebAppVet.Models
 {
-    public partial class Proveedor 
+    public partial class Especie
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public String Nombre { get; set; }
     }
-
-    [MetadataType(typeof(ProveedorMetadata))]
-    public partial class Room
+    [MetadataType(typeof(EspecieMetadata))]
+    public partial class Especie
     {
-        public class ProveedorMetadata
+        public class EspecieMetadata
         {
             [Key]
             public int Id { get; set; }
@@ -25,4 +23,5 @@ namespace WebAppVet.Models
         }
 
     }
+
 }

@@ -7,7 +7,7 @@ using WebAppVet.Data;
 
 namespace WebAppVet.Controllers
 {
-    public class PiezaController : Controller
+    /*public class PiezaController : Controller
     {
         private PruebaDbContext db = new PruebaDbContext();
         // GET: Pieza
@@ -19,5 +19,5 @@ namespace WebAppVet.Controllers
             return View(piezas);    
            // return View();
         }
-    }
+    }*/
 }

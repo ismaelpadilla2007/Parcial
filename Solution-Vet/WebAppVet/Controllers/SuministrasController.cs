@@ -7,7 +7,7 @@ using WebAppVet.Data;
 
 namespace WebAppVet.Controllers
 {
-    public class SuministrasController : Controller
+    /*public class SuministrasController : Controller
     {
         private PruebaDbContext db = new PruebaDbContext();
         // GET: Suministras
@@ -89,5 +89,5 @@ namespace WebAppVet.Controllers
                 return View();
             }
         }
-    }
+    }*/
 }

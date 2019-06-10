@@ -154,14 +154,28 @@
     </Compile>
     <Compile Include="Interfaces\IEntity.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
-    <Compile Include="Migrations\201906091505565_Initial-Create.cs" />
-    <Compile Include="Migrations\201906091505565_Initial-Create.Designer.cs">
-      <DependentUpon>201906091505565_Initial-Create.cs</DependentUpon>
+    <Compile Include="Migrations\201906102255383_Initial-Create.cs" />
+    <Compile Include="Migrations\201906102255383_Initial-Create.Designer.cs">
+      <DependentUpon>201906102255383_Initial-Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906102304570_Second.cs" />
+    <Compile Include="Migrations\201906102304570_Second.Designer.cs">
+      <DependentUpon>201906102304570_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906102335125_Tercer.cs" />
+    <Compile Include="Migrations\201906102335125_Tercer.Designer.cs">
+      <DependentUpon>201906102335125_Tercer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906102342403_Cuarto .cs" />
+    <Compile Include="Migrations\201906102342403_Cuarto .Designer.cs">
+      <DependentUpon>201906102342403_Cuarto .cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Pieza.cs" />
-    <Compile Include="Models\Proveedor.cs" />
-    <Compile Include="Models\Suministra.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Especie.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\Flor.cs" />
+    <Compile Include="Models\Ventas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,8 +205,17 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906091505565_Initial-Create.resx">
-      <DependentUpon>201906091505565_Initial-Create.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906102255383_Initial-Create.resx">
+      <DependentUpon>201906102255383_Initial-Create.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906102304570_Second.resx">
+      <DependentUpon>201906102304570_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906102335125_Tercer.resx">
+      <DependentUpon>201906102335125_Tercer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906102342403_Cuarto .resx">
+      <DependentUpon>201906102342403_Cuarto .cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

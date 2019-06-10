@@ -14,9 +14,10 @@ namespace WebAppVet.Data
 
         }
 
-        public DbSet<Pieza> Piezas { get; set; }
-        public DbSet<Proveedor> Proveedores { get; set; }
-        public DbSet<Suministra> Suministrados { get; set; }
-        
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Especie> Especies { get; set; }
+        public DbSet<Flor> Flores { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<Venta> Ventas { get; set; }
     }
 }

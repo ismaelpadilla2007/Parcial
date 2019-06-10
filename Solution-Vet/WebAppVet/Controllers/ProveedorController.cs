@@ -7,7 +7,7 @@ using WebAppVet.Data;
 
 namespace WebAppVet.Controllers
 {
-    public class ProveedorController : Controller
+    /*public class ProveedorController : Controller
     {
         private PruebaDbContext db = new PruebaDbContext();
 
@@ -21,5 +21,5 @@ namespace WebAppVet.Controllers
                 // return View();
             
         }
-    }
+    }*/
 }
